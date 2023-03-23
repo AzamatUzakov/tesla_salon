@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contener {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img {
+
+    margin: 0 auto;
+    background-image: url(../img/salon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 600px;
+    transition: 03s ease;
+}
+
+
+.flex_box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.box_one {
+    font-weight: 500;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.box_one h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+
+}
+
+
+.box_two {
+    font-weight: 500;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.box_two h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+}
+
+
+
+button {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 100%;
+    font-size: 1px;
+}
+
+.black {
+
+    background-color: black;
+
+}
+
+.white {
+    background-color: rgb(228, 228, 228);
+    color: rgb(228, 228, 228);
+    
+}
+
+.bejivi {
+    color: rgb(255, 212, 156);
+    background-color: rgb(255, 212, 156);
+}
+
+.box_flex{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 55px;
+}
+
+.box_button p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+}
+.mayda p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 10px;
+}
